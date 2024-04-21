@@ -6,7 +6,7 @@ const WorkPage = () => {
     <div className="max-w-7xl mx-auto mt-10">
       {/* <Fade duration={2200}>
         <div className="flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row mb-5 max-h-80">
-          <div className="w-2/4 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-full lg:w-full">
+          <div className="w-2/4 flex flex-col justify-center bg-gradient-to-r from-seccolor to-maincolor p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-full lg:w-full">
             <h1 className="text-5xl mt-5 font-bold text-white">
               test<br></br>
             </h1>
@@ -19,10 +19,10 @@ const WorkPage = () => {
           </div>
         </div>
       </Fade> */}
-
-      <Fade bottom cascade>
+      
+      {/*<Fade bottom cascade>
         <div className="mt-10  flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div className="w-1/3 bg-gradient-to-r from-seccolor to-maincolor p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-black text-2xl">Performance</h3>
             <h4 className="mt-10 text-black opacity-70 text-xl">95+</h4>
           </div>
@@ -40,24 +40,18 @@ const WorkPage = () => {
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
         </div>
-      </Fade>
+      </Fade>*/}
 
       <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Time to lock new speeds
+        {/*<h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>*/}
+        <h3 className="text-black text-6xl font-bold xxs:text-l xs:text-xl sm:text-3xl lg:text-4xl text-gradient bg-gradient-to-r from-seccolor to-maincolor">
+          What are my hobbies?
         </h3>
 
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+        <p className="text-black font-normal mt-3 text-md xxs:text-md xs:text-md sm:text-md md:text-md lg:text-lg">
+          My dad was always pationate about tech, and there's no doubt it rubbed off on me. I enjoy learning about tech, from retro computing to the
+          cutting-edge. Since a young age, video games have been a big part of my life. My earliest experiences were on the PlayStation 1 with Spiro and Crash Bandicoot, and on the PC side, The Sims 2 on my family's PC. My favorite video games include Half-Life 1 and Call of Duty: World at War.
+          I (soon will) work in IT and do 3D modelling and avatar commissions in my free time.
         </p>
       </div>
     </div>

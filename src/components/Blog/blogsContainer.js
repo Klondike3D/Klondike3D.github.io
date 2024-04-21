@@ -63,7 +63,7 @@ const BlogsContainer = ({ data }) => {
           ))}
         </div>
       </Fade>
-      <div className="w-auto p-8 m-4 h-72 sm:h-96 xs:h-96 xxs:h-96 mt-10 bg-gradient-to-r from-pink to-purple rounded-xl flex flex-col items-center justify-center">
+      <div className="w-auto p-8 m-4 h-72 sm:h-96 xs:h-96 xxs:h-96 mt-10 bg-gradient-to-r from-seccolor to-maincolor rounded-xl flex flex-col items-center justify-center">
         <h2 className=" text-3xl font-bold text-black text-center">
           STAY AHEAD OF THE CURVE
         </h2>
@@ -74,7 +74,7 @@ const BlogsContainer = ({ data }) => {
           <Input placeholder="Enter your email"></Input>
           <a
             href="#"
-            className="mt-4 transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
+            className="mt-4 transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-main  hover:bg-main"
           >
             Join The List
           </a>

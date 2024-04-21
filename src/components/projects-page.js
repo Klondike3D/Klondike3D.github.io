@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade"
 import HeroImage from "../images/3D-liquid-abstract-2.webp"
 import BackGroud from "../images/holographic-background.webp"
 
-const Gallery = () => {
+const Projects = () => {
   return (
     <div className="max-w-7xl mx-auto mt-10">
       <Fade duration={2200}>
@@ -145,7 +145,7 @@ const Gallery = () => {
   )
 }
 
-export default Gallery
+export default Projects
 
 /* 
     <div className="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">

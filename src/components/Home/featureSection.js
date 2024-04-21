@@ -12,7 +12,7 @@ const FeatureSection = () => {
     <div className="max-w-7xl mx-auto">
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div className="w-1/3 bg-gradient-to-r from-seccolor to-maincolor p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-black text-2xl">Performance</h3>
             <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4>
           </div>
@@ -44,7 +44,7 @@ const FeatureSection = () => {
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
             <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
-            <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+            <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-seccolor to-maincolor">
               Time to unlock new speeds
             </h3>
 
@@ -58,7 +58,7 @@ const FeatureSection = () => {
               <div className="rounded-md">
                 <a
                   href="tel:#"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-main text-white hover:text-black border border-main hover:bg-transparent md:text-lg md:px-10"
                 >
                   Call Us Now
                 </a>
@@ -66,7 +66,7 @@ const FeatureSection = () => {
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="/gallery"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-main text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-main md:py-3 md:text-lg md:px-10"
                 >
                   View Gallery
                   <svg
@@ -93,7 +93,7 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
+          <div className="w-2/6 bg-gradient-to-r from-seccolor to-maincolor p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
             <span className="text-black font-semibold font-montserrat text-4xl">
               TECH STACK
             </span>
@@ -139,7 +139,7 @@ const FeatureSection = () => {
         <h2 className="text-black text-4xl font-semibold opacity-70">
           OPEN SOURCE
         </h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-seccolor to-maincolor">
           A React based framework
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
@@ -159,7 +159,7 @@ const FeatureSection = () => {
         <h2 className="text-black text-4xl font-semibold opacity-70">
           INTEGRATIONS
         </h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-seccolor to-maincolor">
           Discover and connect
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
@@ -177,7 +177,7 @@ const FeatureSection = () => {
           <div className="rounded-md">
             <a
               href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-main text-white hover:text-black border border-main hover:bg-transparent md:text-lg md:px-10"
             >
               Send Enquiry
             </a>
@@ -201,7 +201,7 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div className="w-1/3 bg-gradient-to-r from-seccolor to-maincolor p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-black text-2xl">v1.0.0</h3>
             <h4 className="mt-10 text-black opacity-70 text-xl">Released</h4>
           </div>
@@ -222,7 +222,7 @@ const FeatureSection = () => {
       </Fade>
       {/* 
       <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
+        <h2 className="text-black text-4xl font-semibold text-gradient bg-gradient-to-r from-seccolor to-maincolor">
           {" "}
           Integrations
         </h2>
@@ -244,7 +244,7 @@ const FeatureSection = () => {
           <div className="rounded-md">
             <a
               href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-purple border border-purple hover:bg-transparent md:text-lg md:px-10"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-main text-white hover:text-purple border border-main hover:bg-transparent md:text-lg md:px-10"
             >
               Send Enquiry
             </a>

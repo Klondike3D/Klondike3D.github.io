@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* custom variables */
+:root{
+    --maincolor: #85C2F0;
+    --maincolor: #4877BD;
+    --maincolorrgb: 133 194 240;
+    --seccolor: #A8D1F0;
+    --seccolor: #5B97F0;
+}
 
 p, input, textarea {
   font-family: "Noto Serif", sans-serif;
@@ -35,7 +43,6 @@ a {
   }
 }
 
-
 /* ~~~~ Custom CSS - I know it's bad T_T ~~~~ */
 
 /* Stop page  side scrolling on mobile */
@@ -58,3 +65,30 @@ body {
 
 /* 404 page */ 
 .\34 04-p {display: flex; flex-direction: column; align-items: center; padding: 40px 0px;}
+
+
+
+/* My edits */
+
+
+/* gradient colors */
+.from-seccolor {
+    --tw-gradient-from: var(--seccolor) var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(170 175 235 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-maincolor {
+    --tw-gradient-to: var(--maincolor) var(--tw-gradient-to-position);
+}
+
+/* button colors */
+.bg-main {
+  --tw-bg-opacity: 1;
+  background-color: var(--maincolor);
+}
+
+.border-main {
+  --tw-border-opacity: 1;
+  border-color: var(--maincolor);
+}

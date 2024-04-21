@@ -1,18 +1,19 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
+import Button from "../components/Atoms/button"
 
 const FeaturedBlog = () => {
   return (
     <Fade duration={2200}>
       <div className="bg-transparent">
         <div className="pt-6 px-6 lg:px-0 mx-auto max-w-screen-xl lg:pt-8  ">
-          <h2 className="text-black text-4xl opacity-70 font-semibold pl-4">
+          {/*<h2 className="text-black text-4xl opacity-70 font-semibold pl-4">
             STAY UP TO DATE
-          </h2>
-          <h3 className="text-black pl-4 text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-            Latest Posts
+          </h2>*/}
+          <h3 className="text-black pl-4 text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-seccolor to-maincolor">
+            Latest Projects
           </h3>
-          <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
+          <div className="blog-hover bg-gradient-to-r from-seccolor to-maincolor border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
             <h2 className="text-black text-3xl font-simibold mb-2">
               Lorem ipsum is simply dummy text
             </h2>
@@ -24,7 +25,7 @@ const FeaturedBlog = () => {
             </p>
             <a
               href="/blog/blog-post"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-main  hover:bg-main"
             >
               Continue Reading
               <svg
@@ -57,7 +58,7 @@ const FeaturedBlog = () => {
               </p>
               <a
                 href="/blog/blog-post-1"
-                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
+                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-main  hover:bg-main"
               >
                 Continue Reading
                 <svg
@@ -89,7 +90,7 @@ const FeaturedBlog = () => {
               </p>
               <a
                 href="/blog/blog-post-2"
-                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
+                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-main  hover:bg-main"
               >
                 Continue Reading
                 <svg
@@ -110,6 +111,31 @@ const FeaturedBlog = () => {
               </a>
             </div>
           </div>
+            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-center">
+              <div className="rounded-md">
+                <a
+                  href="/blog/"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-main text-white hover:text-black border border-main  hover:bg-transparent md:text-lg md:px-10 "
+                >
+                  View All
+                  <svg
+                    className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
         </div>
       </div>
     </Fade>

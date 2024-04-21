@@ -11,15 +11,15 @@ const Contact = () => {
   return (
     <Layout>
       <Seo
-        title="Contact - Holo"
+        title="Contact Me! - Klondike3D"
         description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
       ></Seo>
 
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
           <div className="bg-dp opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
-            <h1 className="text-3xl text-white">CONTACT HOLO</h1>
-            <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
+            <h1 className="text-3xl text-white">CONTACT ME!</h1>
+            <h2 className=" text-black text-gradient bg-gradient-to-r from-seccolor to-maincolor text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
               Gatsby Theme
             </h2>
             <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
@@ -148,7 +148,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <form className="mt-5" name="contact" method="POST" netlify>
+            {/*<form className="mt-5" name="contact" method="POST" netlify>
               <div className="flex xxs:flex-col sm:flex-row">
                 <div className="sm:mr-5 xxs:mr-0">
                   <label>
@@ -205,12 +205,12 @@ const Contact = () => {
                   <Button
                     type="submit"
                     title="Send Message"
-                    colorClass="bg-gradient-to-r from-pink to-purple font-montserrat"
+                    colorClass="bg-gradient-to-r from-seccolor to-maincolor font-montserrat"
                     marginClass="mt-5"
                   ></Button>
                 </label>
               </div>
-            </form>
+            </form>*/}
           </div>
         </Fade>
         <Fade bottom cascade>

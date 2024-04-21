@@ -12,11 +12,13 @@ const NotFoundPage = () => (
     <div className="404-p">
     <h1>404: Not Found</h1>
       <p>How'd you even get here???</p><p>That page doesn't even exist lol</p>
-      <a href="/"><Button
+          <a href="/">
+            <Button
                 title="Return Home"
-                colorClass="text-white bg-gradient-to-r from-pink to-purple"
+                colorClass="text-white bg-gradient-to-r from-seccolor to-maincolor"
                 marginClass="mt-5"
-              ></Button></a>
+            ></Button>
+          </a>
       </div>
   </Layout>
 )

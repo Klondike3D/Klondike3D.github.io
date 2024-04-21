@@ -11,11 +11,12 @@ const AboutHeader = () => {
           <img alt="Image" src={Image3}></img>
         </div>
         <div className="mt-10 px-8">
-          <h1 className="font-bold text-xl text-black text-gradient bg-gradient-to-r from-pink to-purple">
+          <h1 className="font-bold text-6xl text-black text-gradient bg-gradient-to-r from-seccolor to-maincolor">
             Who am I?
           </h1>
-          <h2 className="text-black text-3xl font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-3xl lg:text-3xl">
-            I'm a polar bear :)
+          <br></br>
+          <h2 className="text-black text-xl font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-xl lg:text-xl">
+            I'm a 3D-artist based in the US. I mostly work with the Fluffy Dog base by Irix. I make clothing and other accessories as well as make edits to the base to fit your needs.
           </h2>
         </div>
       </div>

@@ -12,21 +12,19 @@ const Header = () => {
             <h1 className="text-black text-4xl font-semibold opacity-70">
               MY NAME IS KLONDIKE
             </h1>
-            <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              What's up?
+            <h2 className="text-black text-gradient bg-gradient-to-r from-seccolor to-maincolor text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
+              Hello!
             </h2>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              I'm a 3D-artist based in the US. I mostly work with the
-			  Fluffy Dog base by Irix. I make clothing and other accessories
-			  as well as make edits to the base to fit your needs.
+              I'm a 3D-artist! What can I make for you?
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md">
                 <a
                   href="/contact"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-main text-black hover:text-grey border border-main  hover:bg-transparent md:text-lg md:px-10 "
                 >
                   Contact Me
                   <svg
@@ -49,7 +47,7 @@ const Header = () => {
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="/about"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-main text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-main md:py-3 md:text-lg md:px-10"
                 >
                   Get To Know Me
                 </a>

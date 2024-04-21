@@ -1,6 +1,6 @@
 import React from "react"
 
-const Button = ({ title, colorClass, textColor, onClick, marginClass }) => {
+const ButtonDark = ({ title, colorClass, textColor, onClick, marginClass }) => {
   return (
     <button
       onClick={onClick}
@@ -11,4 +11,4 @@ const Button = ({ title, colorClass, textColor, onClick, marginClass }) => {
   )
 }
 
-export default Button
+export default ButtonDark
